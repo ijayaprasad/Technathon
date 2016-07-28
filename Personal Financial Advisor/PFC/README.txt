@@ -1,4 +1,4 @@
-Java Web Application
+  Java Web Application
 
 This sample application demonstrates how to write a Java Web application (powered by WebSphere Liberty) and deploy it on Bluemix.
 
