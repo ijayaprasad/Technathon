@@ -1,0 +1,103 @@
+{
+  "subject": "Spending",
+  "columns": [
+    {
+      "key": "food",
+      "type": "numeric",
+      "goal": "max",
+      "full_name": "Food",
+      "is_objective": true,
+      "format": "€####0.00"
+    },
+    {
+      "key": "travel",
+      "type": "numeric",
+      "goal": "max",
+      "full_name": "Travel",
+      "is_objective": true,
+      "format": "€####0.00"
+    },
+    {
+      "key": "shopping",
+      "type": "numeric",
+      "goal": "max",
+      "full_name": "Shopping",
+      "is_objective": true,
+      "format": "€####0.00"
+    },
+    {
+      "key": "communication",
+      "type": "numeric",
+      "goal": "max",
+      "full_name": "Communication",
+      "is_objective": true,
+      "format": "€####0.00"
+    },
+    {
+      "key": "miscellaneous",
+      "type": "numeric",
+      "goal": "max",
+      "full_name": "Miscellaneous",
+      "is_objective": true,
+      "format": "€####0.00"
+    }
+  ],
+  "subject": "spending",
+  "options": [
+    {
+      "key": "1",
+      "name": "Product 1",
+      "values": {
+        "food": 2000,
+        "travel": 500,
+        "shopping": 100,
+        "communication": 400,
+        "miscellaneous": 700
+      }
+    },
+    {
+      "key": "2",
+      "name": "Product 2",
+      "values": {
+        "food": 300,
+        "travel": 1500,
+        "shopping": 400,
+        "communication": 300,
+        "miscellaneous": 600
+      }
+    },
+    {
+      "key": "3",
+      "name": "Product 3",
+      "values": {
+        "food": 300,
+        "travel": 200,
+        "shopping": 1400,
+        "communication": 100,
+        "miscellaneous": 400
+      }
+    },
+    {
+      "key": "4",
+      "name": "Product 4",
+      "values": {
+        "food": 100,
+        "travel": 100,
+        "shopping": 300,
+        "communication": 600,
+        "miscellaneous": 3000
+      }
+    },
+    {
+      "key": "5",
+      "name": "Product 5",
+      "values": {
+        "food": 200,
+        "travel": 100,
+        "shopping": 500,
+        "communication": 1400,
+        "miscellaneous": 200
+      }
+    }
+  ]
+}

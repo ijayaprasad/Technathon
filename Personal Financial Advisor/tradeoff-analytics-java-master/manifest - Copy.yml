@@ -1,0 +1,11 @@
+applications:
+- path: output/webApp.war
+  memory: 256M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: trade-off-personal-finance-advisor
+  host: trade-off-personal-finance-advisor
+  disk_quota: 1024M
+  services:
+  - Tradeoff Analytics-a9
+  

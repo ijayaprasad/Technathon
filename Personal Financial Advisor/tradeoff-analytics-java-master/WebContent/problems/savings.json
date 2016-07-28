@@ -1,0 +1,98 @@
+{
+  "subject": "Savings",
+  "columns": [
+    {
+      "key": "savingindex",
+      "type": "numeric",
+      "goal": "max",
+      "full_name": "Saving Index",
+      "is_objective": true
+    },
+    {
+      "key": "interest",
+      "type": "numeric",
+      "goal": "max",
+      "full_name": "ROI",
+      "is_objective": true
+    },
+    {
+      "key": "risk",
+      "type": "numeric",
+      "goal": "min",
+      "full_name": "Risk",
+      "is_objective": true
+    },
+    {
+      "key": "premium",
+      "type": "numeric",
+      "goal": "min",
+      "full_name": "Premium",
+      "is_objective": true
+    },
+    {
+      "key": "coverage",
+      "type": "numeric",
+      "goal": "max",
+      "full_name": "Coverage",
+      "is_objective": true
+    }
+  ],
+  "subject": "Savings",
+  "options": [
+    {
+      "key": "1",
+      "name": "Rabo Pan Indian Equity Fund",
+      "values": {
+        "savingindex": 0.2,
+        "interest": 0.8,
+        "risk": 0.7,
+        "premium": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "key": "2",
+      "name": "Rabo Pan European Equity Fund",
+      "values": {
+        "savingindex": 0.4,
+        "interest": 0.2,
+        "risk": 1.0,
+        "premium": 1000,
+        "coverage": 0.67
+      }
+    },
+    {
+      "key": "3",
+      "name": "Rabo Sports Development Fund",
+      "values": {
+        "savingindex": 0.1,
+        "interest": 0.7,
+        "risk": 0.2,
+        "premium": 0,
+        "coverage": 0
+      }
+    },
+    {
+      "key": "4",
+      "name": "Rabo Education Fund",
+      "values": {
+        "savingindex": 0.4,
+        "interest": 0.4,
+        "risk": 0.2,
+        "premium": 400,
+        "coverage": 0.542
+      }
+    },
+    {
+      "key": "5",
+      "name": "Rabo Agriculture Fund",
+      "values": {
+        "savingindex": 2.0,
+        "interest": 2.3,
+        "risk": 0.01,
+        "premium": 0,
+        "coverage": 0
+      }
+    }
+  ]
+}
