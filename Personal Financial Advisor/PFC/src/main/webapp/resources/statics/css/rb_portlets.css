@@ -1,0 +1,609 @@
+.maven.header.version
+/************************************************************/
+/* Rabobank Nederland					                */ 
+/* www.rabobank.nl							  	*/
+/*										*/					
+/* Archive file:      $Archive: /Static Server Migration/css/rb_portlets.css $	 */
+/* Last changed by:   $Author: KoppenensJFB $				 */
+/* Last checked in:   $Date: 2013-01-25 09:53:31 +0100 (vr, 25 jan 2013) $				 */		
+/* Last modified:     $Modtime: 13-10-10 12:59 $			 	*/	
+/* Revision number:   $Revision: 96406 $						 */	
+/*											*/					
+/* CSS definitions	     			 					*/
+/* Merge of preknown css files: 						*/
+/* ra_harmonica.css (v20)							*/
+/* ra_localbankinfo.css (v4)							*/
+/* ra_consultnewsitems.css (v6)						*/	
+/************************************************************/
+
+
+/*#### Begin of harmonica ############################################**/
+
+/* harmonica */
+dl.harmonica {
+	margin: 0;
+	padding: 0;
+	width: 720px;
+}
+dl.harmonica dt.h-t {
+    border: solid 1px #CCC;
+    background-image: url(images/harmonica.gif);
+    height: 23px;
+    color: #009;
+}
+dl.harmonica dt.h-t a {
+    font-weight: bold;
+    background: none 0 0;
+    padding: 0;
+	color: #009;
+}
+dl.harmonica dt.h-t span {
+    margin: 0 0 0 30px;
+    /*color: #009;*/
+    line-height: 23px;
+    display: block;
+}
+
+dl.harmonica dt.h-t a:hover {
+    color: #00A;
+}
+dl.harmonica dt.h-t:hover,
+dl.harmonica dt.hoverexpand {
+    background-position: 0 -23px;
+}
+dl.harmonica dt.h-t-down{
+	background-position: 0 -46px;
+}
+dl.harmonica dt.h-t-expand {
+    background-position: 0 -46px;
+}
+dl.harmonica dt.h-t-expand:hover,
+dl.harmonica dt.h-t-expand.hover {
+    background-position: 0 -69px;
+}
+dl.harmonica dd.h-d {
+    border: solid 1px #CCC;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+dl.harmonica dd.h-d div.h-d-c {
+    visibility: visible;
+    padding: 5px 5px 1px 5px;
+}
+* html dl.harmonica dd.h-d div.h-d-c {
+    height: 1%;
+}
+dl.harmonica dd.last_h-d {
+    border-bottom: solid 1px #CCC;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: -1px;
+    position:relative;
+}
+
+* html dl.harmonica dd.last_h-d {
+	z-index:-99;
+}
+
+dl.harmonica ul.linklist {
+    padding-left: 3px;
+}
+dl.harmonica ul.linklist li a:visited {
+    color: #00C;
+    background-image: url(images/arrows_sprite.png);
+    background-repeat:no-repeat;
+    background-position:0 4px;
+}
+
+dl.harmonica ul.linklist li a:hover {
+    color: #F60;
+    background-image: url(images/arrows_sprite.png);
+    background-repeat:no-repeat;
+    background-position:0 -53px;
+}
+dl.harmonica p {
+    margin: 0;
+}
+
+/* table with links */
+.linktable {
+    border-collapse: collapse;
+}
+.linktable caption {
+    display: none;
+}
+.linktable thead tr th {
+    text-align: right;
+    font-size: 10px;
+}
+.linktable .firstth {
+    padding-left: 1px;
+    text-align: left;
+}
+.linktable td {
+    border-bottom: 1px solid #DDD;
+}
+
+.linktable tbody.linkbody tr:hover,
+.linktable tbody.linkbody tr.hover {
+	color: #F60;
+	cursor: pointer;
+}
+.linktable tbody.linkbody tr.nolink {
+	color:#000;
+	cursor:auto;
+}
+.linktable tbody.linkbody tr.nolink td span {
+	padding-left:10px;
+}
+
+/* mvdd 19112008 */
+.linktable tbody.linkbody tr.hover a {
+	color:#F60 !important;
+    background-image: url(images/arrows_sprite.png);
+    background-repeat:no-repeat;
+    background-position:0 -53px;
+}
+
+
+.linktable tbody.linkbody tr.nolink:hover a,
+.linktable tbody.linkbody tr.nolink.hover a {
+	color:#000;
+}
+.linktable tbody.linkbody tr:hover .negativevalues,
+.linktable tbody.linkbody tr.hover .negativevalues {
+    color: #F60;
+}
+.linktable tbody.linkbody ,
+.linktable tbody.linkbody:visited {
+    color: #00C;
+}
+.linktable a {
+    /*position: relative;*/
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    z-index: 0;
+    background-image: url(images/arrows_sprite.png);
+    background-repeat:no-repeat;
+    background-position:0 -242px;
+	padding-left: 8px;
+    margin-left: 2px;
+    text-decoration: none;
+}
+.linktable tr, .linktable th {
+	height:22px;
+}
+
+* HTML .linktable tr, .linktable th {
+	height:19px;
+}
+
+.linktable a:visited {
+   color: #00C; 
+}
+/* table columns */
+.linktable .firstcolumn {
+    width: 125px;
+}
+.linktable .secondcolumn {
+    width: 190px;
+}
+.linktable .thirdcolumn {
+    width: 285px;
+}
+.linktable .fourthcolumn {
+    width: 100px;
+    padding-right: 8px;
+}
+.linktable .thirdfourthcolumn {
+    width: 385px;
+}
+
+.linktable .values {
+    padding-right: 8px;
+}
+/* Set the negative values to the color red */
+.negativevalues {
+    color: #F00;
+    white-space: nowrap;
+}
+
+/* Commerce blocks */
+.commerce {
+	margin:0;
+	padding:5px 0;
+}
+.commerce img.fleft {
+	border-right:1px solid #FFF;
+	
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	margin-bottom: 0px;
+	margin-right: 5px;
+}
+.commerce .news {
+    margin-left: 4px;
+	background-color:#EEE;
+	width:700px;
+	height:90px;
+}
+.commerce .decoratedlight {
+	margin-left:3px;
+}
+.commerce .leftnews {
+    margin-left: 4px;
+	width: 345px;
+	height: 90px;
+	float:left;
+	background-color:#EEE;
+}
+.commerce .rightnews {
+	margin-left: 10px;
+	width: 345px;
+	height: 90px;
+	float:left;
+	background-color:#EEE;
+}
+div.commerce ul.linklist {
+    height: 1%;
+    margin: 0;
+}
+div.commerce ul.linklist li a:visited {
+   color: #A79;
+   background-image: url(images/arrows_sprite.png);
+   background-repeat:no-repeat;
+   background-position:0 -116px;
+   display:inline-block !important;
+}
+.commerce .banner {
+    margin-left: 4px;
+	width:700px;
+	height:129px;
+	float:left;
+}
+.commerce .leftbanner {
+    margin-left: 4px;
+	width: 345px;
+	height:129px;
+	float:left;
+}
+.commerce .rightbanner {
+	margin-left: 10px;
+	width:345px;
+	height:129px;
+	float:left;
+}
+.commerce .fleft {
+    margin-left: 4px;
+	width: 345px;
+	height:129px;
+	float:left;
+}
+.commerce .fleft .banner {
+    width: 345px;
+    margin-left: 0px;
+}
+.commerce .fright {
+	margin-left: 10px;
+	width:345px;
+	height:129px;
+	float:left;
+}
+.commerce .fright .banner {
+    width: 345px;
+    margin-left: 0px;
+}
+
+* html .commerce .fleft {
+    margin-left: 2px;
+}
+* html .commerce .leftnews {
+    margin-left: 2px;
+}
+* html .commerce .banner {
+    margin-left: 2px;
+}
+/*#### End of harmonica  #############################################*/
+
+
+
+
+
+
+
+/*#### Begin of localbank #############################################*/
+
+/* list items */
+.linklist .nondecorateditem span {
+    padding-left: 8px;
+}
+/* banner placement in varia above localbankinfo */
+#ph_varia .fright {
+	float:none;
+}
+
+#ph_varia .banner {
+	margin-bottom:10px;
+}
+
+/*#### End of localbank  #############################################*/
+
+
+
+
+
+
+
+
+/*#### Begin of consultnewsitems #############################################*/
+
+/* Newsitems */
+#productview_newsitems {
+    margin: 17px 0 0 0;
+}
+.newsitem {
+    float: left;
+    width: 350px;
+    margin: 0 5px 5px 0;
+	height: 9.1em;
+}
+.newsitem .container {
+	padding-top:0px;
+}
+.newsitem p {
+	margin-bottom:0;
+}
+.newsitem ul.linklist {
+	margin: 0;
+}
+/* overwriting default.css styles for anchor in order to use arrows_sprite.png */
+
+div.newsitem ul.linklist li a:visited {
+   background-image: url(images/arrows_sprite.png);
+   background-repeat:no-repeat;
+   background-position:0 -116px;
+   display:inline-block !important;
+}
+
+div.newsitem ul.linklist li a:hover {
+   background-image: url(images/arrows_sprite.png);
+   background-repeat:no-repeat;
+   background-position:0 -53px;
+   display:inline-block !important;
+}
+
+div.newsitem ul.linklist li a {
+   background-image: url(images/arrows_sprite.png);
+   background-repeat:no-repeat;
+   background-position:0 -242px;
+  display:inline-block !important;
+}
+
+/*#### End of consultnewsitems #############################################*/
+
+
+
+
+/*#### Begin of myAdvisor #############################################*/
+
+.rb_uwaccman {
+	margin-bottom:10px;
+}
+
+.rb_uwaccman .rb_contact, .rb_uwbank .rb_contact{
+	margin-bottom:10px;
+}
+.rb_contact h4 {
+	margin-bottom:5px;
+}
+
+.rb_uwaccman .dropdowncontainer, .rb_uwbank .dropdowncontainer {
+	height:23px;
+}
+
+.rb_uwaccman .dropdowncontainer {
+	margin-left:1px;
+	width:160px;
+	clear:both;
+}
+
+.cl_uwaccountmanager {
+	background:#FFFFFF url(images/cl_uwaccountmanager.gif) no-repeat scroll 2px 50%;
+}
+
+.rb_contact p {
+	margin-bottom:0px;
+}
+
+.rb_uwaccman p {
+	margin:0;
+	padding-left:0;
+}
+
+.rb_uwaccman .rb_bh_advisorinfo a.img-wrapper {
+	background:url(images/myadvisor_sprite.png) top left no-repeat;
+	display:block;
+	height:48px;
+	width:38px;
+	cursor: pointer;
+}
+
+#ph_varia .rb_uwaccman img {
+	width:90px;
+	height:120px;
+	border:1px solid #CCC;
+}
+
+.rb_uwaccman .decoratedlight {
+	display:block;
+	background-position: 0 5px;
+}
+
+.rb_uwaccman .ra_bh_advisorinfo {
+	margin-bottom:10px;
+	width:158px;
+	clear:left;
+}
+
+
+.ra_bh_advisorinfo h4 {
+	margin-bottom:1px;
+}
+
+.rb_uwaccman .close img {
+	display:none;
+}
+
+.rb_uwaccman .close .img-wrapper {
+	background:url(images/myadvisor_sprite.png) 0 8px no-repeat;
+	display:block;
+	height:45px;
+	width:34px;
+	cursor: pointer;
+}
+
+.rb_uwaccman .b_hasImg  {
+	position:relative;
+	display:block;
+	width:90px;
+	height:120px;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+
+.rb_uwaccman .close .b_hasImg  {
+	margin-top:0px;
+}
+
+.rb_uwaccman .close .min-icon {
+	background:url(images/plus_icoon.png) top left no-repeat;
+	z-index:99px;
+	top:0px;
+	right:-4px;
+}
+
+.rb_uwaccman .close .m-over .min-icon, .rb_uwaccman .close a:hover .min-icon {
+	background:url(images/plus_icoon_mo.png) top left no-repeat;
+}
+
+.rb_uwaccman .min-icon {
+	background:url(images/min_icoon.png) top left no-repeat;
+	display:block;
+	width:20px;
+	height:20px;
+	z-index:99px;
+	top:-8px;
+	right:-11px;
+	position:absolute;
+	cursor:pointer;
+}
+
+.rb_uwaccman .m-over .min-icon, .rb_uwaccman a:hover .min-icon {
+	background:url(images/min_icoon_mo.png) top left no-repeat;
+}
+
+* html .rb_uwaccman .close .min-icon {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/plus_icoon.png');
+}
+
+* html .rb_uwaccman .close .m-over .min-icon {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/plus_icoon_mo.png');
+}
+
+* html .rb_uwaccman .min-icon {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/min_icoon.png');
+}
+
+* html .rb_uwaccman .m-over .min-icon {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/min_icoon_mo.png');
+}
+
+ .rb_uwaccman .rb_url_vstg {
+	clear:left;
+	display:block;
+ }
+ 
+ .rb_uwaccman .rb_mail_accman {
+	display:block;
+	float:left;
+	margin-bottom:7px;
+ }
+ 
+/* defect 517 */ 
+.rb_uwaccman ul.dynamicdropdown, .rb_uwbank ul.dynamicdropdown {
+	width:100%;
+} 
+
+/* defect 1236 */ 
+.rb_uwaccman .rb_mail_accman a, .rb_uwaccman .rb_mail_accman a span {
+	display:block;
+ }
+
+/* defect 3695 */
+
+.rb_uwbank {
+z-index:9999;
+}
+
+* html .rb-has-js ul.dynamicdropdown li.opened {
+display:inline;
+}
+
+/*#### End of myAdvisor #############################################*/
+
+
+/*#### Start of klantbeeld sec inbox badge #########################################*/
+.rb_inbox_badge {
+	background:#FFF url(images/kb_secin_badge.png) top left no-repeat;
+	position:absolute;
+	top:3px;
+	right:3px;
+	height:37px;
+	width:188px;
+}
+
+.rb_inbox_badge p {
+	margin:3px 0 0 10px;
+	color:#F60;
+}
+
+.rb_inbox_badge a:visited, .rb_inbox_badge a:hover, .rb_inbox_badge a  {
+	background:url(images/arrows_sprite.png) 12px -224px no-repeat;
+	position:absolute;
+	height:19px;
+	width:168px;	
+	color:#00C;
+	padding-left:20px;
+	text-decoration:none;
+	padding-top:18px;
+	top:0;
+	left:0;
+}
+
+.button {
+	font: bold 11px Arial;
+	text-decoration: none;
+	background-color: #EEEEEE;
+	color: #333333;
+	padding: 2px 6px 2px 6px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+}
+
+.avatar {
+	height: 57px;
+	width: 57px;
+}
+/*#### End of klantbeeld sec inbox badge #########################################*/
+
+
+

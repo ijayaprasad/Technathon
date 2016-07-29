@@ -17,7 +17,7 @@
     }
   </style>
   <div class="header" style="background-color: #FF5819;">
-    <img src="/resources/css/images/rabobank_logo.png" alt="logo" />
+    <img src="/resources/statics/css/images/rabobank_logo.png" alt="logo" />
     <h1 style="margin:auto;padding:30px;width:43%;color:#FFFFFF; font-weight:bold;">
       Rabo Financial Advisor
     </h1>

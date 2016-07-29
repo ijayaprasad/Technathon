@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Personal Financial Advisor.iml" filepath="$PROJECT_DIR$/.idea/Personal Financial Advisor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PFC/customer-personality-insights.iml" filepath="$PROJECT_DIR$/PFC/customer-personality-insights.iml" />
     </modules>
   </component>
 </project>

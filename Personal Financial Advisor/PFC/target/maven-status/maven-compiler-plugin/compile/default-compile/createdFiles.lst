@@ -1,0 +1,5 @@
+com\cognizant\poc\watson\customer_personality_insights\helper\Twitter4JHelper.class
+com\cognizant\poc\watson\customer_personality_insights\helper\PersonalityInsightsHelper.class
+com\cognizant\poc\watson\customer_personality_insights\controller\GoalSettingsController.class
+com\cognizant\poc\watson\customer_personality_insights\controller\PerosnalityInsightsController.class
+com\cognizant\poc\watson\customer_personality_insights\filter\ProductDetails.class

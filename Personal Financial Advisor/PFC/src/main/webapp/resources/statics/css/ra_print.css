@@ -1,0 +1,11 @@
+.maven.header.version body{padding:0;margin:0;font:normal 12pt "Times New Roman",serif;color:#000;background-color:#FFF;line-height:120%}
+#pa_logo{display:block;background:url(images/rabologo_print.gif) top left no-repeat;width:90px;height:100px}
+#pa_logo img{display:block;width:72px;height:88px;border:0}#pa_logo h1 a{display:block;width:72px;height:88px}
+#pa_logo h1 span{display:none}#ph_credo{width:190px;font:Italic bold 8pt Verdana;text-indent:-1px;float:right;color:#009}
+#ph_content{padding-top:20px;padding-bottom:20px}* html #ph_content{width:70%}#pa_header{display:none}
+#ph_legal{display:none}#ph_leftnav{display:none}#pa_topnav{display:none}#ph_varia{display:none}
+.hidden{display:none}hr.print{display:block;height:1px;color:#000;border:0;border-top:1px solid #f60}
+a:link,a:visited{color:#009;text-decoration:underline;width:1%}#ph_content a:link:after,#content a:visited:after{content:" [ " attr(href) " ] ";font-size:80%;color:#009}
+#ph_content a[href^="/"]:after{content:" [ http://www.rabobank.nl " attr(href) " ] ";font-size:80%;color:#009}
+dl,dt,dd{margin:0;padding:0}dt{font-weight:bold}h1{font-size:18pt}h2{font-size:14pt}h3{font-size:10pt}
+h4{font-size:8pt}h5{font-size:8pt}h6{font-size:8pt}.noprint,#ph_sequencemenu{display:none}
