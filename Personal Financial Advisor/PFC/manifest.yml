@@ -2,10 +2,10 @@ applications:
 - path: target/customer-personality-insights.war
   memory: 512M
   instances: 1
-  domain: eu-gb.mybluemix.net
-  name: personal-financial-consellor
-  host: personal-financial-consellor
+  domain: mybluemix.net
+  name: PFCParent
+  host: PFCParent
   disk_quota: 1024M
   services:
-  - Personality Insights-1l
-  - Tradeoff Analytics-1b
+  - Personality Insights-m0
+  - Tradeoff Analytics-y8
